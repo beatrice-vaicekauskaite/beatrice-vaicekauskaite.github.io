@@ -3,13 +3,13 @@
 
 	<head>
 		<title> Beatrice Vaicekauskaite CV </title>
-		<link rel="stylesheet" href="styles/cvStyle.css"/>
+		<link rel="stylesheet" href="cvStyle.css"/>
 	</head>
 	
 	<body>
 		<h1 class="shadow"> Beatrice Vaicekauskaite </h1>
 		<h3 class="shadow"> x21185794@ncirl.ie, 0123456789 </h3>
-		<img src="images/me.jpeg" alt="An image of Beatrice."/>
+		<img src="me.jpeg" alt="An image of Beatrice."/>
 		<h3 class="shadow"> <a href="https://www.lipsum.com/">My social media account.</a> </h3>
 		<h5 class="shadow"><a href="#extra">More information can be found if you click here.</a> </h5>
 		</br>
@@ -44,8 +44,8 @@
 		</br>
 		</br>
 		</br>
-		<h3 class="shadow"> <a href="about/coverLetter.html">Cover Letter</a> </h3>
-		<h3 class="shadow"> <a href="about/skills.html">More about my education/skills/experience</a> </h3>
+		<h3 class="shadow"> <a href="coverLetter.html">Cover Letter</a> </h3>
+		<h3 class="shadow"> <a href="skills.html">More about my education/skills/experience</a> </h3>
 		</br>
 		</br>
 		<h2 id="extra" class="shadow">More information</h2>
