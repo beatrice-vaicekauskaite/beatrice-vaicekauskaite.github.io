@@ -3,7 +3,7 @@
 
 	<head>
 		<title> Beatrice Vaicekauskaite CV </title>
-		<link rel="stylesheet" href="../styles/cvStyle.css"/>
+		<link rel="stylesheet" href="cvStyle.css"/>
 	</head>
 	
 	<body>
