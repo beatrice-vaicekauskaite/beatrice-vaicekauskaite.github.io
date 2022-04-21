@@ -1,7 +1,7 @@
 body {
   background-color: #F0E68C;
 }
-h1, h2, h3, h5{
+h1, h2, h3{
 	color: #daa520;
 	text-align:center;
 }
