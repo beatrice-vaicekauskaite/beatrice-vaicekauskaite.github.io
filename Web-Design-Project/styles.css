@@ -1,0 +1,145 @@
+body {
+  background-color: #F0E68C;
+}
+h1, h2, h3, h5{
+	color: #daa520;
+	text-align:center;
+}
+h4 {
+  color: #daa520;	
+}
+	
+p {
+  color: #70380f;
+  text-align:justify
+
+}
+
+li {
+	color: #70380f;
+}
+
+
+/* DIVs for different sizes of screen */
+
+
+ /* for 980px or less */
+@media screen and (max-width: 980px) {
+body{
+background-color: lightblue;
+}
+#navbar {
+width: 94%;
+}
+p {
+width: auto;
+color: black;
+text-align:justify
+
+}
+#carouselExampleIndicators {
+width: auto;
+}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+body{
+background-color: #FDFF7A;
+}
+p {
+width: auto;
+float: none;
+color: black;
+text-align:justify
+}
+#carouselExampleIndicators {
+display:none
+}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+body{
+background-color: #FF887A;
+}
+#header {
+height: auto;
+}
+h1 {
+font-size: 24px;
+}
+
+h1, h2, h3, h4, h5{
+	color: black;
+}
+
+#carouselExampleIndicators {
+display: none;
+}
+p{
+width: auto;
+color: black;
+text-align:justify
+}
+}
+
+
+
+/* Beatrice part */
+
+/*
+body{
+	text-align:center;
+	color:#581845;
+	font-family:Times New Roman;
+	background-color: #F0E68C;
+}
+
+h1{
+	color: #daa520;
+}
+*/
+
+h5{
+	color: #daa520;
+	text-decoration:underline;
+}
+
+
+
+#image-1, #image-2, #image-3, #image-4, #image-5,#image-6{
+	border: 1px solid #ddd; 
+	border-radius: 4px;  
+	width:300px;
+	height:250px;
+}
+
+#image-1:hover, #image-2:hover, #image-3:hover, #image-4:hover, #image-5:hover,#image-6:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.row-1{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+
+.row-2{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+
+.column-1{
+	flex:33.33%;
+	padding:5px;
+	flex-wrap: wrap;
+}
+.column-2{
+	flex:33.33%;
+	padding:5px;
+	flex-wrap: wrap;
+}
+
+
