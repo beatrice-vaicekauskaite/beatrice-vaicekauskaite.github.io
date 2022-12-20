@@ -2,6 +2,9 @@
 import scapy.all as scapy
 import re
 
+#Importing sys will help to save the results to a text file.
+import sys 
+
 #Regular expression for the correct IP address.
 ip_address=re.compile("^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$")
 
@@ -14,4 +17,12 @@ while True:
         print(f"{ip_address} IP address entered is valid.")
         break
 
+#A command to direct the screen output to a file
+stdoutOrigin=sys.stdout 
+sys.stdout = open("log.txt", "w")
+
 results=scapy.arping(ip_address)
+
+#Reverts the output back to display the results on the screen
+sys.stdout.close()
+sys.stdout=stdoutOrigin
