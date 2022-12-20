@@ -12,16 +12,16 @@ ip_address=re.compile("^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$")
 #If a valid IP address was entered the scapy arping() function will 
 #create packets and will send them to the MAC address and then results will be displayed.
 while True:
-    ip_address=input("\nEnter the IP address you want to scan (ex 192.168.1.0/24): ")
-    if ip_address.search(ip_address):
-        print(f"{ip_address} IP address entered is valid.")
+    ip_address_input=input("\nEnter the IP address you want to scan (ex 192.168.1.0/24): ")
+    if ip_address.search(ip_address_input):
+        print(f"IP address entered is valid. Your results will be saved in a log file.")
         break
 
 #A command to direct the screen output to a file
 stdoutOrigin=sys.stdout 
 sys.stdout = open("log.txt", "w")
 
-results=scapy.arping(ip_address)
+results=scapy.arping(ip_address_input)
 
 #Reverts the output back to display the results on the screen
 sys.stdout.close()
